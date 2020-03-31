@@ -77,7 +77,7 @@ li.dropdown {
   display: block;
 }
 
-.button {
+.button-nav {
   float: right;	
   background-color: #FF7E73;
   border: none;
@@ -92,13 +92,50 @@ li.dropdown {
 }
 
 .info {
+	padding-top: 140px;
+	text-align: center;
 	width: 100%;
 }
+.info h1 {
+	font-size: 72px;
+	font-family: 'Roboto Black', sans-serif;
+	color: #404040;
+}
+.info h5 {
+	margin-top: -19px;
+	font-size: 24px;
+	font-family: 'Roboto Light', sans-serif;
+	color: #404040;
+}
 
+.button {
+  background-color: #CC655C;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 4px 12px;
+  cursor: pointer;
+}
 
+#button1:hover {
+	background-color: #994C45;
+}
 
+#button2 {
+	border: 1px solid #C0C0C0;
+	background-color: #FAF4F1;
+	color: #404040;
+}
 
-
+#button2:hover {
+	border: 1px solid #404040;
+}
 
 
 
