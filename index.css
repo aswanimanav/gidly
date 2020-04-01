@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	background: #f9f9f9;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 .container {
@@ -172,6 +173,14 @@ div p {
 	margin: auto 40px;
 }
 
+#para1 h3 {
+	color: #404040;
+}
+
+#para2 h3 {
+	color: #404040;
+}
+
 #para2 {
 	margin: auto 32px;
 }
@@ -210,6 +219,7 @@ div p {
 	font-family: 'Roboto Black', sans-serif;	
 }
 .get-started h4 {
+	text-align: center;
 	color: #f9f9f9;
 	font-family: 'Roboto Light'
 }
@@ -316,7 +326,7 @@ div p {
 }
 
 
-
+	
 
 
 
