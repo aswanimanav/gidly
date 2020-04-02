@@ -19,6 +19,7 @@ nav {
 	float: left;
 	
 }
+
 nav img {
 	max-width: 150px;
 	margin-left: -20px;
@@ -274,6 +275,18 @@ div p {
 	margin-right: 0;
 }
 
+#facebook {
+	color: #3B5998;
+}
+
+#twitter {
+	color: #08A0E9;
+}
+
+#instagram {
+	color: #515BD4;
+}
+
 .inner-footer .footer-third h1 {
 	font-family: 'Roboto Light', sans-serif;
 	font-size: 20px;
@@ -328,10 +341,9 @@ div p {
 hr {
 	opacity: 0.4;
 	width: 83%;
-	color: red;
 }
 
-p {
+.the-end p {
 	display: inline-block;
 	color: #606060;
 }
@@ -341,9 +353,8 @@ p {
 }
 
 #made {
-	margin-left: 593px;
+	margin-left: 595px;
 }
- 
 
 
 
