@@ -5,6 +5,8 @@ html, body {
 	overflow-x: hidden;
 }
 
+/****** Header ******/
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -17,7 +19,6 @@ html, body {
 nav {
 	width: 100%;
 	float: left;
-	
 }
 
 nav img {
@@ -75,7 +76,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -94,6 +97,8 @@ li.dropdown {
   margin: 32px;
   cursor: pointer;
 }
+
+/****** Page Hero ******/
 
 .info {
 	padding-top: 140px;
@@ -141,6 +146,8 @@ li.dropdown {
 	border: 1px solid #404040;
 }
 
+/****** Features ******/
+
 .grid-container {
   margin-top: 95px;
   display: grid;
@@ -182,7 +189,8 @@ div p {
 }
 
 #para2 {
-	margin: auto 32px;
+	margin-top: 50px;
+	margin-left: 58px;
 }
 
 .feature-link {
@@ -196,12 +204,9 @@ div p {
 
 .feature-link:hover {
 	text-decoration: underline;
-}
+}	
 
-#para2 {
-	margin-top: 50px;
-	margin-left: 58px;
-}
+/****** Get Started ******/
 
 .get-started {
 	display: flex;
@@ -233,6 +238,8 @@ div p {
 #button3:hover {
 	padding: 14px 19px;
 }
+
+/****** Footer ******/
 
 .footer {
 	width: 100vw;
