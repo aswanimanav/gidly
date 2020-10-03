@@ -125,17 +125,11 @@ i {
 
 /****** Features ******/
 
-.grid-container {
-  margin-top: 95px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-row-gap: 120px;
-  grid-column-gap: 30px;
+.container-fluid {
+  margin-top: 6rem;
+  
 }
-.grid-item {
-  font-size: 30px;
-  text-align: center;
-}
+
 
 .feature-img { 
 	max-width: 650px;
