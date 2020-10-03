@@ -47,11 +47,11 @@ nav a {
 
 
 .navbar-light .navbar-nav .nav-link {
-	color: #606060;
+	color: #404040;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: black;
+	color: #404040;
 }
 
 nav .btn {
@@ -73,14 +73,21 @@ i {
 .info {
 	margin-top: 15rem;
 	text-align: center;
-	width: 100%;
-	height: 40vh;
+	height: 25rem;
+	margin: 15rem 1rem 0rem 1rem;
 }
+
+
 .info h1 {
 	font-size: 5rem;
 	font-family: 'Roboto Black', sans-serif;
 	color: #404040;
 }
+
+.info h1 span {
+	display: block;
+}
+
 .info h5 {
 	font-size: 1.5rem;
 	font-family: 'Roboto Light', sans-serif;
@@ -349,10 +356,13 @@ hr {
 
 @media screen and (max-width: 768px) {
 	.info h1 {
-	  font-size: 3rem;
+	  font-size: 2.5rem;
   }
 
   .info h5 {
-	  font-size: 1.25rem;
+	  font-size: 1rem;
+  }
+  .grid-container {
+	  margin-top: 0;
   }
 }
