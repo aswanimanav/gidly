@@ -131,10 +131,6 @@ i {
 }
 
 
-.feature-img { 
-	max-width: 650px;
-	border-radius: 24px;
-}
 
 div h3 {
 	text-align: left;
@@ -146,36 +142,6 @@ div p {
 	font-size: 16px;
 	text-align: left;
 }
-
-#para1 {
-	margin: auto 40px;
-}
-
-#para1 h3 {
-	color: #404040;
-}
-
-#para2 h3 {
-	color: #404040;
-}
-
-#para2 {
-	margin-top: 50px;
-	margin-left: 58px;
-}
-
-.feature-link {
-	text-align: left;
-	text-decoration: none;
-	font-size: 15px;
-	color: #1B7CED;
-	font-weight: 400;
-	float: left;
-}
-
-.feature-link:hover {
-	text-decoration: underline;
-}	
 
 /****** Get Started ******/
 
