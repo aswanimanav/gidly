@@ -132,22 +132,25 @@ i {
 	margin-bottom: 100px;
 }
 
-.img-m1 {
+#mockup1 {
 	text-align: center;
 }
 
-.img-m1 img {
+.f1,.f2 {
+	padding: 0 10%;
+	margin: 4rem 0;
+}
+
+#mockup2 {
+	text-align: right;
+}
+
+.col-lg-6 img {
 	width: 80%; 
 	height: auto; 
 	object-fit: contain; 
 }
 
-.feature {
-	/* padding: 5rem; */
-	width: 80%;
-	margin: 3rem auto;
-	padding-right: 2rem;
-}
 
 .sub-feature {
 	margin: 1.25rem 0;
