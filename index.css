@@ -71,9 +71,7 @@ i {
 /****** Page Hero ******/
 
 .info {
-	margin-top: 15rem;
 	text-align: center;
-	height: 25rem;
 	margin: 15rem 1rem 0rem 1rem;
 }
 
@@ -127,20 +125,41 @@ i {
 
 .container-fluid {
   margin-top: 6rem;
-  
 }
 
+.content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 
+.img-m1 {
+	text-align: center;
+}
+
+.img-m1 img {
+	width: 80%; 
+	height: auto; 
+	object-fit: contain; 
+}
+
+.feature {
+	/* padding: 5rem; */
+	width: 80%;
+	margin: 3rem auto;
+	padding-right: 2rem;
+}
 
 div h3 {
 	text-align: left;
 	font-family: Roboto;
+	margin-bottom: 2rem;
 }
 
 div p {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1rem;
 	text-align: left;
+	margin-bottom: 0;
 }
 
 /****** Get Started ******/
