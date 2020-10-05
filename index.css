@@ -241,9 +241,32 @@ footer {
 	transition: .1s linear;
 }
 
-.social-media a:hover {
+/* .social-media a:hover {
 	color: #FF7E73;
+} */
+
+.social-media a:nth-child(1):hover{
+	color: #4267B2;
 }
+.social-media a:nth-child(2):hover{
+	color: #1DA1F2;
+}
+.social-media a:nth-child(3):hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+-webkit-background-clip: text;
+/* Also define standard property for compatibility */
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.social-media a:nth-child(4):hover{
+	color: #FF0000;
+}
+.social-media a:nth-child(5):hover{
+	color:  #BD081C;
+}
+
+
+
 
 .right-col h1 {
 	font-size: 26px;
@@ -331,7 +354,7 @@ form .btn:hover {
 	.btn-group-lg>.btn, .btn-lg {
 		font-size: 1rem;
 		line-height: 1;
-		padding: 0.5rem 0.5rem;
+		padding: 0.5rem 0.75rem;
 	}
   
 	.info h1 {
@@ -344,6 +367,14 @@ form .btn:hover {
 
   .grid-container {
 	  margin-top: 0;
+	}
+
+	.f1, .f2 {
+		padding-left: 15%;
+	}
+
+	.get-started {
+		height: 19rem;
 	}
 
 	.get-started h1 {
@@ -363,6 +394,10 @@ form .btn:hover {
 		margin: 0;
 		width: 100%;
 		margin-top: 20px  ;
+	}
+
+	.fa-facebook-f {
+		margin-left: 15px;
 	}
 	  
 
